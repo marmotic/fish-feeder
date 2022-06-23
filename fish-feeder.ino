@@ -8,7 +8,7 @@ const int feedingIntervalInMillis = 24*60*60*1000;
 int totalStepsTravelled = 0;
 int currentContainer = 0;
 int nextDoseTime = millis();
-int paused = false;
+bool paused = false;
 
 // ULN2003 Motor Driver Pins
 #define IN1 D5
